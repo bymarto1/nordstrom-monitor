@@ -8,7 +8,7 @@ def make_embed(details):
 		
 	separator='\n'
 	sizes = separator.join(details['sizes'])
-	
+	print(sizes)
 	#QUICKTASKS CONFIG
 	"""
 	quicktasks = []
@@ -46,7 +46,7 @@ def make_embed(details):
 							],
 			'footer': {
 				'icon_url': 'https://pbs.twimg.com/profile_images/1268224680697225216/6WiKMaJl_400x400.jpg',   # add cookgroup photo
-				'text': 'Pacsun monitor by SabreIO'               #change to cg
+				'text': 'Nordstrom monitor by SabreIO'               #change to cg
 				}
 			}]
 
