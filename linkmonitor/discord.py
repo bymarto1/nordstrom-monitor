@@ -59,7 +59,7 @@ class embedSender:
 	async def send(self, embed):
 		
 		data = {
-			'username' : 'TOPPS', # add monitor name
+			'username' : 'Nordstrom', # add monitor name
 			'avatar_url': 'https://pbs.twimg.com/profile_images/1268224680697225216/6WiKMaJl_400x400.jpg', #add webstore photo
 			'embeds': embed
 		}
